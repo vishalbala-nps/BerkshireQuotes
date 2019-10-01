@@ -1,0 +1,136 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:622108426970:function:Berkshire_Quotes"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "en-IN": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Berkshire Quotes",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/95f3/8409a8e10f7d4c4097a7f254de8be5be/APP_ICON?versionId=CZQdcQjby4s7R8wHPLKblDluabN0YtuR&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191001T061023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d33f6279ef24baf3323f3b761bcfe37c953592342ce61475d129746da9f13335",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3694/21c7bec947d145148641c984b7ae469d/APP_ICON_LARGE?versionId=l5Zi0Hufy7L0JT4TIbjuUcZgSU.8NvrN&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191001T061023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=20ef836a76c1d2958ad6f647fd5e86a0391f21026f6c563c3976a06fe12cd25f",
+          "summary": "Quotes by Warren Buffett and Charlie Munger",
+          "description": "Warren Buffett aged 85+ and Charlie Munger aged 95+ are running the largest company of the world (based on Networth) Berkshire Hathaway. They are running the company for the past 50+ years, by acquiring companies and  buying stocks from other listed companies. They share their thoughts through Annual reports, Shareholder meetings and various interviews.\n\nThis skill gives the famous quotes given by both of them during the past 50+ years",
+          "examplePhrases": [
+            "Alexa, Open Berkshire Quotes",
+            "Give me a quote from Berkshire Quotes",
+            "Ask Berkshire Quotes to give me a quote"
+          ],
+          "keywords": [
+            "quotes",
+            "berkshire",
+            "finance",
+            "business",
+            "investing",
+            "value",
+            "investing"
+          ]
+        },
+        "en-CA": {
+          "name": "Berkshire Quotes",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/68b1/008f47cc273c468d8a4d6dd3127552c5/APP_ICON?versionId=izodGm.m_OnIUKsrsH61gAcFCX1D..Gq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191001T061023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ccfbc4a3aedb18bc2e25b5ded0090c99e6440fc24dd85d88aa00b4d3dcbd8406",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/22ae/e58f6d69a7bb4257871c507c9e73be2b/APP_ICON_LARGE?versionId=ZEHLB.pOCEwX2oGvAcyDgeu0uQ3T.q.z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191001T061023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cd1e8aa07824885433090ac19c9dd81db928726d19a4b3a97096a430b179d6ad",
+          "summary": "Quotes by Warren Buffett and Charlie Munger",
+          "description": "Warren Buffett aged 85+ and Charlie Munger aged 95+ are running the largest company of the world (based on Networth) Berkshire Hathaway. They are running the company for the past 50+ years, by acquiring companies and  buying stocks from other listed companies. They share their thoughts through Annual reports, Shareholder meetings and various interviews.\n\nThis skill gives the famous quotes given by both of them during the past 50+ years",
+          "examplePhrases": [
+            "Alexa, Open Berkshire Quotes",
+            "Give me a quote from Berkshire Quotes",
+            "Ask Berkshire Quotes to give me a quote"
+          ],
+          "keywords": [
+            "quotes",
+            "berkshire",
+            "finance",
+            "business",
+            "investing",
+            "value",
+            "investing"
+          ]
+        },
+        "en-IN": {
+          "name": "Berkshire Quotes",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/c215/6053613360ff4d19875d8dea2f29cfb0/APP_ICON?versionId=qgNMpbkOHUjfuuVbTj4dUgZDtOCY.jx2&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191001T061023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=47c9f063fea630d93182a081a8e808a1346607d1890e859a14aa40b027863f92",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/dd54/a50b864b89b346dc960c6af4f8c643d3/APP_ICON_LARGE?versionId=VnLHt52oYjA1MyzVa6uHDW2HHB0d.z4n&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191001T061023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e7fee2bd1f1fbb5a280141b4a486f46682f181ce8701dcbcbee8ddb9e9bf6dd0",
+          "summary": "Quotes by Warren Buffett and Charlie Munger",
+          "description": "Warren Buffett aged 85+ and Charlie Munger aged 95+ are running the largest company of the world (based on Networth) Berkshire Hathaway. They are running the company for the past 50+ years, by acquiring companies and  buying stocks from other listed companies. They share their thoughts through Annual reports, Shareholder meetings and various interviews.\n\nThis skill gives the famous quotes given by both of them during the past 50+ years",
+          "examplePhrases": [
+            "Alexa, Open Berkshire Quotes",
+            "Give me a quote from Berkshire Quotes",
+            "Ask Berkshire Quotes to give me a quote"
+          ],
+          "keywords": [
+            "quotes",
+            "berkshire",
+            "finance",
+            "business",
+            "investing",
+            "value",
+            "investing"
+          ]
+        },
+        "en-AU": {
+          "name": "Berkshire Quotes",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8433/8d9badf2c84d40b6a81d754b07b458ab/APP_ICON?versionId=LxipGnmFMJWDv3gASIEpnqrrx3uc_fm7&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191001T061023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ed92e3cb467109a3d7fed1d1e106fbbc15f2af8d9d391e40d53c8262a7fc8167",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6796/c8a58e5926af46de82efb6513e03870f/APP_ICON_LARGE?versionId=qNWIsRmNBaVD5QkHWo9iZ4IelFp65h4V&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191001T061023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=03e933e1160b46bec464c0987818d4bc628d8bc4b3fb7dd5486645021c05e9f3",
+          "summary": "Quotes by Warren Buffett and Charlie Munger",
+          "description": "Warren Buffett aged 85+ and Charlie Munger aged 95+ are running the largest company of the world (based on Networth) Berkshire Hathaway. They are running the company for the past 50+ years, by acquiring companies and  buying stocks from other listed companies. They share their thoughts through Annual reports, Shareholder meetings and various interviews.\n\nThis skill gives the famous quotes given by both of them during the past 50+ years",
+          "examplePhrases": [
+            "Alexa, Open Berkshire Quotes",
+            "Give me a quote from Berkshire Quotes",
+            "Ask Berkshire Quotes to give me a quote"
+          ],
+          "keywords": [
+            "quotes",
+            "berkshire",
+            "finance",
+            "business",
+            "investing",
+            "value",
+            "investing"
+          ]
+        },
+        "en-GB": {
+          "name": "Berkshire Quotes",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/2854/b4e2ee1cbdf043a98a98a0d370b206ef/APP_ICON?versionId=V99vPhlVcvxMGyeSUXrjsZfDlf4vIaXl&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191001T061023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=943e0618166feed77580d515e4d2990eebebc1ba835a20e097b80d0d79e4f0e4",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/587f/99958a6392364fcf98f95515fd1176f4/APP_ICON_LARGE?versionId=8p3vJ9pT1dfu2hR8Qdv.euhNa8bsyBcV&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191001T061023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191001%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=814ade6a41e26d31ef5f64d202a71b6a6ac504c19ba3227904acf902ebeaa238",
+          "summary": "Quotes by Warren Buffett and Charlie Munger",
+          "description": "Warren Buffett aged 85+ and Charlie Munger aged 95+ are running the largest company of the world (based on Networth) Berkshire Hathaway. They are running the company for the past 50+ years, by acquiring companies and  buying stocks from other listed companies. They share their thoughts through Annual reports, Shareholder meetings and various interviews.\n\nThis skill gives the famous quotes given by both of them during the past 50+ years",
+          "examplePhrases": [
+            "Alexa, Open Berkshire Quotes",
+            "Get a quote from Berkshire Quotes",
+            "Ask Berkshire Quotes to give me a quote"
+          ],
+          "keywords": [
+            "quotes",
+            "berkshire",
+            "finance",
+            "business",
+            "investing",
+            "value",
+            "investing"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "There is no special hardware or software requirements to test this skill. This skill uses lambda function and dynamo DB to pull quotes",
+      "category": "BUSINESS_AND_FINANCE",
+      "distributionCountries": []
+    }
+  }
+}
