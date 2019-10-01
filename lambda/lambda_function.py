@@ -200,7 +200,7 @@ def getquotes(mode):
     retVal['att'] = att
     retVal['qwname'] = resp + "\n -" + auth
     if mode == "initial":
-        retVal['message'] = "Welcome to Berkshire Quotes! Here's a quote from " + auth + ", " + resp + ". Would you like another quote?"
+        retVal['message'] = "Hello! Welcome to Berkshire Quotes! Here's a quote from " + auth + ", " + resp + ". Would you like another quote?"
     else:
         retVal['message'] = "Ok, here's another quote from " + auth + ", " + resp + ". Would you like another quote?"
        
