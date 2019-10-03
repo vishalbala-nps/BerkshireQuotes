@@ -112,6 +112,15 @@ def fallback(event, context):
     retVal['att'] = att
     return question("Berkshire quotes",retVal )
     
+def help_intent(event, context):
+    att = {'aid' : 0 , 'fname':'none'}
+    print("In Help")
+    retVal={}
+    retVal['message'] = "This skill gives you quotes by Warren Buffett and Charlie Munger. Would you like a quote?"
+    retVal['qwname'] = "This skill gives you quotes by Warren Buffett and Charlie Munger. Would you like a quote?"
+    retVal['att'] = att
+    return question("Berkshire quotes",retVal )
+    
 def no_intent(event, context):
     return statement("Thanks!", "Thanks for using Berkshire Quotes! Hope to see you soon!", "Thanks for using Berkshire Quotes!")
         
@@ -157,7 +166,7 @@ def intent_router(event, context):
     if intent == "AMAZON.CancelIntent":
         return stopskill()
     if intent == "AMAZON.HelpIntent":
-        return help_intent()
+        return help_intent(event, context)
     if intent == "AMAZON.FallbackIntent":
         return fallback(event, context)
     if intent == "AMAZON.StopIntent":
@@ -200,7 +209,7 @@ def getquotes(mode):
     retVal['att'] = att
     retVal['qwname'] = resp + "\n -" + auth
     if mode == "initial":
-        retVal['message'] = "Hello! Welcome to Berkshire Quotes! Here's a quote from " + auth + ", " + resp + ". Would you like another quote?"
+        retVal['message'] = "Welcome to Berkshire Quotes! Here's a quote from " + auth + ", " + resp + ". Would you like another quote?"
     else:
         retVal['message'] = "Ok, here's another quote from " + auth + ", " + resp + ". Would you like another quote?"
        
