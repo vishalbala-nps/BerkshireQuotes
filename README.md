@@ -3,6 +3,7 @@
 An Alexa Skill which gives quotes by Warren Buffett and Charlie Munger
 
 ## Setup Instructions:
+### Cloning the project
 Start by cloning the repository on to your local machine with the following command:
 ```bash
 git clone https://github.com/vishalbala-nps/BerkshireQuotes.git
