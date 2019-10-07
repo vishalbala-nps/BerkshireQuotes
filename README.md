@@ -3,7 +3,7 @@
 An Alexa Skill which gives quotes by Warren Buffett and Charlie Munger
 
 ## Setup Instructions:
-
+Start by cloning the repository on to your local machine
 ### Configuration in Alexa Dev Console:
 * First, we need to go to this page: https://developer.amazon.com/alexa/console/ask Then, we shoul click on "Create Skill" button
 
